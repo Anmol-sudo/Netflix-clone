@@ -150,12 +150,12 @@ i:hover {
   }
 
   .play-button {
-    width: 90%;
+    /* width: 409px; */
     margin: auto;
   }
 
   .watch-trailer-button {
-    width: 90%;
+    /* width: 90%; */
     margin: auto;
   }
 }
