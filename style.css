@@ -3,7 +3,7 @@
 body {
   background-color: black;
   margin: 0;
-  height: 900px;
+  height: 703px;
 }
 
 .sidebar {
@@ -46,9 +46,8 @@ i:hover {
 }
 
 .carousel-container {
-  border: 1px solid red;
   width: 95.85%;
-  height: 500px;
+  height: 430px;
   margin-left: 4%;
   display: flex;
   flex-direction: column;
