@@ -56,6 +56,142 @@ i:hover {
     #261d18 url("img/Professor.jfif") no-repeat fixed right;
 }
 
+.carousel-inner {
+  width: 44%;
+}
+
+.series-title {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding-left: 17px;
+}
+
+.netflix-symbol {
+  width: 32px;
+}
+
+.series-text {
+  color: white;
+  letter-spacing: 4px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.money-heist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.money-heist-title {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.money-heist-text {
+  font-size: 102px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  font-family: 'Anton', sans-serif;
+  margin: 0;
+}
+
+.money-heist-money {
+  color: white;
+}
+
+.money-heist-heist {
+  color: black;
+  background-color: red;
+  padding: 0 4px;
+}
+
+.part-4-container {
+  text-align: center;
+  width: 69%;
+}
+
+.part-4-text {
+  color: white;
+  letter-spacing: 8px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.imdb-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding-left: 22px;
+}
+
+.imdb-logo {
+  width: 34px;
+}
+
+.imdb-rating {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.streams-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding-left: 22px;
+}
+
+.streams-count {
+  color: red;
+  font-family: 'Roboto', sans-serif;
+}
+
+.streams-text {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding-left: 17px;
+}
+
+.play-button {
+  color: white;
+  background-color: red;
+  font-size: 15px;
+  width: 110px;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.watch-trailer-button {
+  color: black;
+  background-color: #e6e6e6;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.anime-section {
+  width: 95.85%;
+  margin-left: 4%;
+}
+
+.anime-section-title {
+  color: white;
+  font-family: 'Montserrat';
+}
+
 .anime-item-wrapper {
   display: flex;
   gap: 12px;

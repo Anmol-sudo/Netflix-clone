@@ -1,7 +1,6 @@
 const animeItemCont = document.querySelectorAll(".anime-item-wrapper");
 const childDivs = animeItemCont[0].children;
 
-
 const imgElements = Array.from(childDivs).map((childDiv) => {
   const imgElement = document.createElement("img");
   childDiv.appendChild(imgElement);
