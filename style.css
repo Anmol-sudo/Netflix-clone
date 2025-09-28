@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: black;
+  margin: 0;
+}
+
+.sidebar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  width: 4%;
+  background-color: black;
+  position: fixed !important;
+  z-index: 1;
+}
+
+.icon-24 {
+  font-size: 24px;
+}
+.white {
+  color: white;
+}
+
+.sidebar-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+}
+
+i {
+  -webkit-text-stroke: 0.1px;
+}
+
+i:hover {
+  -webkit-text-stroke: 1px;
+}
+
+.home-icon {
+  border-bottom: 2px solid red;
+  padding-bottom: 2px;
+}
+
+.carousel-container {
+  border: 1px solid red;
+  width: 95.85%;
+  height: 500px;
+  margin-left: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(to right, #000000 40%, rgba(0, 0, 0, 0)),
+    #261d18 url("img/Professor.jfif") no-repeat fixed right;
+}
+
+.anime-item-wrapper {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.anime-item-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.anime-item-wrapper {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.anime-item {
+  width: 150px;
+  height: 200px;
+  flex-shrink: 0;
+}
